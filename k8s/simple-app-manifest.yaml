@@ -16,7 +16,8 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-    labels:
+  name: simple-app
+  labels:
     app: simple-app
 spec:
   replicas: 2
@@ -25,7 +26,6 @@ spec:
       app: simple-app
   template:
     metadata:
-      name: simple-app
       labels:
         app: simple-app
     spec:
