@@ -46,7 +46,7 @@ spec:
     spec:
       containers:
         - name: simple-app
-          image: donamaxii/simple-app:latest
+          image: donamaxii/simple-app:v36963bcb819c0bad4c6dc93544062530a5c6f805
           ports:
           - containerPort: 8080
           resources:
