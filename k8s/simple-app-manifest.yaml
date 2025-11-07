@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: simple-app
-          image: donamaxii/simple-app:v8
+          image: donamaxii/simple-app:v9
           ports:
           - containerPort: 8080
           resources:
