@@ -7,3 +7,5 @@ Este repositório faz parte do projeto Simple-App, e nele está contido o arquiv
 O repositório conterá o arquivo manifest, escrito no formato YAML, que conterá as informações de deployment e services para a criação do cluster Kubernetes. Ele conterá também um arquivo simples chamado *VERSION*, que registrará o versionamento da imagem, atualizada e enviada ao DockerHub.
 
 A aplicação que será instalada no cluster K8S (ou Kubernetes) está disponível aqui: [simple-app](https://github.com/DonaMaxii/simple-app/).
+
+![Simple-App em funcionamento](https://github.com/DonaMaxii/simple-app/blob/images/images/app-ok-1.png)
